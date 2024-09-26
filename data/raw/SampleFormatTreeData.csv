@@ -1,0 +1,23 @@
+﻿nodeID,nodeType,parentID,option,nodeText,ScenarioCategory,Definition
+0,selectbox,null,null,What kind of object are you thinking of?,,null
+1,selectbox,0,animate,Which kingdom does it belong?,,null
+2,selectbox,0,inanimate,How did it occur?,,null
+3,selectbox,1,animal,Which category is it?,,null
+4,leaf,1,plant,null,1,tree
+5,selectbox,1,protists and fungi,Does it live in a forest?,,null
+6,leaf,1,early bacteria,null,1,yogurt
+7,leaf,1,late bacteria,null,2,algea
+8,selectbox,2,human made,Do you sit on it?,,null
+9,textarea,2,natural,What kind of music do you like?,,null
+10,selectbox,9,null,Is it a kind of rock?,,null
+11,leaf,3,reptile,null,1,snake
+12,leaf,3,mamal,null,2,monkey
+13,leaf,3,fish,null,3,swordfish
+14,leaf,3,inveribrate,null,5,squid
+15,leaf,3,amphibian,null,4,frog
+16,leaf,5,yes,null,8,mushroom
+17,leaf,5,no,null,1,mold
+18,leaf,8,yes,null,2,chair
+19,leaf,8,no,null,1,spaceship
+20,leaf,10,yes,null,4,obsidian
+21,leaf,10,no,null,9,mars
