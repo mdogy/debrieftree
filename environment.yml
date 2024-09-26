@@ -2,7 +2,7 @@ name: base
 channels:
 - conda-forge
 dependencies:
-- altair
+- altair==5.4.1
 - annotated-types
 - appnope
 - argcomplete
