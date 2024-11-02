@@ -1,0 +1,26 @@
+2024-11-02T23:21:05.786575+0900 DEBUG current_path: {current_path}
+2024-11-02T23:21:05.786847+0900 DEBUG current_node: 1
+2024-11-02T23:21:05.787276+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-02T23:21:05.787362+0900 DEBUG node_type: selectbox
+2024-11-02T23:21:05.787427+0900 DEBUG node_text: Type of case?
+2024-11-02T23:21:05.787482+0900 DEBUG type(node_type): <class 'str'>
+2024-11-02T23:21:05.791037+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-02T23:21:05.791158+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-02T23:21:05.791223+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-02T23:21:05.791276+0900 DEBUG node_type: selectbox
+2024-11-02T23:21:05.791323+0900 DEBUG Branch Selectbox
+2024-11-02T23:21:05.849703+0900 INFO Still Collecting Information

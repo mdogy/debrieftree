@@ -189,7 +189,6 @@ dependencies:
 - toml
 - tomli
 - tornado
-- tqdm
 - traitlets
 - typer
 - typer-slim
