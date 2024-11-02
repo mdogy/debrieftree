@@ -1,0 +1,86 @@
+nodeID,nodeType,parentID,option,nodeText,ScenarioCategory,H_p,H_a,TypeOfCase
+1,selectbox,null,null,Type of case?,null,null,null,null
+2,textarea,1,blood,"The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).",null,null,null,blood
+3,selectbox,1,sexual assault,What is the prosecution's activity level proposition?,null,null,null,sexual assault
+4,textarea,1,trace DNA (airbag),"The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)",null,null,null,trace DNA
+5,textarea,2,null,"In the prosecution's proposition, what weapon did the Suspect use?  (e.g., a knife, a baseball bat, an unknown weapon, no weapon)",null,null,null,null
+6,selectbox,5,null,What is the alternative proposition / scenario?,null,The Suspect ___________ the Complainant with ____________ .,null,null
+7,selectbox,3,Suspect had vaginal intercourse with Complainant,What is the alternative proposition / scenario?,null,Suspect had vaginal intercourse with Complainant,null,null
+8,selectbox,3,Suspect digitally penetrated Complainant,What is the alternative proposition / scenario?,null,Suspect digitally penetrated Complainant,null,null
+9,selectbox,3,Suspect licked/sucked breast(s) of Complainant,What is the alternative proposition / scenario?,null,Suspect licked/sucked breast(s) of Complainant,null,null
+10,textarea,4,null,"and ______________ (date, time)",null,null,null,null
+11,selectbox,10,null,What is the alternative proposition / scenario?,null,The Suspect drove the car between __________ and ____________ .,null,null
+12,leaf,6,Someone else performed this activity,null,3,null,Someone else ___________ Complainant with _________,null
+13,leaf,6,Suspect performed this activity on someone else,null,3,null,Suspect ___________ someone else with ___________,null
+14,textarea,6,Suspect performed this activity at a different time,What is the alternative proposition?,2,null,,null
+15,textarea,6,Suspect performed a different activity at same time,What is the alternative proposition?,2,null,,null
+16,textarea,6,Suspect performed a different activity at a different time,What is the alternative proposition?,2,null,,null
+17,textarea,6,Secondary transfer scenario,What is the alternative proposition?,2,null,,null
+18,textarea,6,Tertiary transfer scenario,What is the alternative proposition?,2,null,,null
+19,textarea,6,More than tertiary transfer scenario,What is the alternative proposition?,2,null,,null
+20,leaf,6,"None of the above (i.e., alternative does not contain an activity)",null,1,null,Suspect did not __________ Complainant with __________ (no alternative activity),null
+21,leaf,7,Someone else performed this activity,null,3,null,Someone else had vaginal intercourse with Complainant,null
+22,leaf,7,Suspect performed this activity with someone else,null,3,null,Suspect had vaginal intercourse with someone else,null
+23,textarea,7,Suspect performed this activity at a different time,What is the alternative proposition?,2,null,,null
+24,textarea,7,Suspect performed a different activity at same time,What is the alternative proposition?,2,null,,null
+25,textarea,7,Suspect performed a different activity at a different time,What is the alternative proposition?,2,null,,null
+26,textarea,7,Secondary transfer scenario,What is the alternative proposition?,2,null,,null
+27,textarea,7,Tertiary transfer scenario,What is the alternative proposition?,2,null,,null
+28,textarea,7,More than tertiary transfer scenario,What is the alternative proposition?,2,null,,null
+29,leaf,7,"None of the above (i.e., alternative does not contain an activity)",null,1,null,Suspect did not have vaginal intercourse with Complainant (no alternative activity),null
+30,leaf,8,Someone else performed this activity,null,3,null,Someone else digitally penetrated the Complainant,null
+31,leaf,8,Suspect performed this activity on someone else,null,3,null,Suspect digitally penetrated someone else,null
+32,textarea,8,Suspect performed this activity at a different time,What is the alternative proposition?,2,null,,null
+33,textarea,8,Suspect performed a different activity at same time,What is the alternative proposition?,2,null,,null
+34,textarea,8,Suspect performed a different activity at a different time,What is the alternative proposition?,2,null,,null
+35,textarea,8,Secondary transfer scenario,What is the alternative proposition?,2,null,,null
+36,textarea,8,Tertiary transfer scenario,What is the alternative proposition?,2,null,,null
+37,textarea,8,More than tertiary transfer scenario,What is the alternative proposition?,2,null,,null
+38,leaf,8,"None of the above (i.e., alternative does not contain an activity)",null,1,null,Suspect did not digitally penetrate the Complainant (no alternative activity),null
+39,leaf,9,Someone else performed this activity,null,3,null,Someone else licked/sucked breast(s) of Complainant,null
+40,leaf,9,Suspect performed this activity on someone else,null,3,null,Suspect licked/sucked breast(s) of someone else,null
+41,textarea,9,Suspect performed this activity at a different time,What is the alternative proposition?,2,null,,null
+42,textarea,9,Suspect performed a different activity at same time,What is the alternative proposition?,2,null,,null
+43,textarea,9,Suspect performed a different activity at a different time,What is the alternative proposition?,2,null,,null
+44,textarea,9,Secondary transfer scenario,What is the alternative proposition?,2,null,,null
+45,textarea,9,Tertiary transfer scenario,What is the alternative proposition?,2,null,,null
+46,textarea,9,More than tertiary transfer scenario,What is the alternative proposition?,2,null,,null
+47,leaf,9,"None of the above (i.e., alternative does not contain an activity)",null,1,null,Suspect did not lick/suck breast(s) of Complainant (no alternative activity),null
+48,leaf,11,Someone else performed this activity,null,3,null,Someone else drove the car between ________ and ___________,null
+49,textarea,11,Suspect performed this activity at a different time,What is the alternative proposition?,2,null,,null
+50,textarea,11,Suspect performed a different activity at same time,What is the alternative proposition?,2,null,,null
+51,textarea,11,Suspect performed a different activity at a different time,What is the alternative proposition?,2,null,,null
+52,textarea,11,Secondary transfer scenario,What is the alternative proposition?,2,null,,null
+53,textarea,11,Tertiary transfer scenario,What is the alternative proposition?,2,null,,null
+54,textarea,11,More than tertiary transfer scenario,What is the alternative proposition?,2,null,,null
+55,leaf,11,"None of the above (i.e., alternative does not contain an activity)",null,1,null,Suspect did not drive the car (no alternative activity),null
+56,leaf,14,,,,,,
+57,leaf,15,,,,,,
+58,leaf,16,,,,,,
+59,leaf,17,,,,,,
+60,leaf,18,,,,,,
+61,leaf,19,,,,,,
+62,leaf,23,,,,,,
+63,leaf,24,,,,,,
+64,leaf,25,,,,,,
+65,leaf,26,,,,,,
+66,leaf,27,,,,,,
+67,leaf,28,,,,,,
+68,leaf,32,,,,,,
+69,leaf,33,,,,,,
+70,leaf,34,,,,,,
+71,leaf,35,,,,,,
+72,leaf,36,,,,,,
+73,leaf,37,,,,,,
+74,leaf,41,,,,,,
+75,leaf,42,,,,,,
+76,leaf,43,,,,,,
+77,leaf,44,,,,,,
+78,leaf,45,,,,,,
+79,leaf,46,,,,,,
+80,leaf,49,,,,,,
+81,leaf,50,,,,,,
+82,leaf,51,,,,,,
+83,leaf,52,,,,,,
+84,leaf,53,,,,,,
+85,leaf,54,,,,,,
