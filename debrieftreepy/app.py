@@ -4,8 +4,9 @@ import numpy as np
 import pandas as pd
 from pandas import DataFrame
 from pathlib import Path
-from loguru import logger
+import logging
 import yaml
+logger = logging.getLogger(__name__)
 
 
 LOGGER_FILE = "debug.log"
@@ -197,9 +198,12 @@ def main()-> None:
     FNAME = "DecisionTrees3.csv"
 
     fid = open(LOGGER_FILE, "a")
-    logger.add(fid,
-                format="{time} {level} {message}",
-                level="DEBUG")
+    logging.basicConfig(filename=LOGGER_FILE,
+                        filemode='a',
+                        encoding='utf-8', 
+                        level=logging.DEBUG,
+                        format="%(asctime)s:%(levelname)s:%(message)s")
+
 
     df = pd.read_csv(DATAPATH / FNAME)
     
