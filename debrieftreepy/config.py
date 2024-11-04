@@ -1,7 +1,8 @@
 from pathlib import Path
 
 from dotenv import load_dotenv
-from loguru import logger
+# Streamlit not loading loguru for some reason
+#from loguru import logger
 
 # Load environment variables from .env file if it exists
 load_dotenv()
