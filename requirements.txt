@@ -1,8 +1,9 @@
+logru
 altair==5.4.1
 appnope==0.1.4
 asttokens==2.4.1
 attrs==24.2.0
-aws-c-auth==0.8.0
+aws-c-auth
 aws-c-cal==0.8.0
 aws-c-common==0.9.31
 aws-c-compression==0.3.0
@@ -178,4 +179,3 @@ zeromq==4.3.5
 zipp==3.20.2
 zstandard==0.23.0
 zstd==1.5.6
-loguru
