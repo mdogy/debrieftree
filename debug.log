@@ -114,3 +114,2233 @@ Name: 1, dtype: object
 2024-11-02T23:50:58.073392+0900 DEBUG node_type: textarea
 2024-11-02T23:50:58.073902+0900 INFO Still Collecting Information
 2024-11-02T23:50:58.073902+0900 INFO Still Collecting Information
+2024-11-04T17:10:03.717400+0900 DEBUG current_path: {current_path}
+2024-11-04T17:10:03.718947+0900 DEBUG current_node: 1
+2024-11-04T17:10:03.719666+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:10:03.719779+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:03.719857+0900 DEBUG node_text: Type of case?
+2024-11-04T17:10:03.719928+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:03.725109+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:10:03.725263+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:10:03.725348+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:10:03.725417+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:03.725480+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:03.779946+0900 INFO Still Collecting Information
+2024-11-04T17:10:13.382336+0900 DEBUG current_path: {current_path}
+2024-11-04T17:10:13.382336+0900 DEBUG current_path: {current_path}
+2024-11-04T17:10:13.382784+0900 DEBUG current_node: 1
+2024-11-04T17:10:13.382784+0900 DEBUG current_node: 1
+2024-11-04T17:10:13.383486+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:10:13.383486+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:10:13.383638+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:13.383638+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:13.383748+0900 DEBUG node_text: Type of case?
+2024-11-04T17:10:13.383748+0900 DEBUG node_text: Type of case?
+2024-11-04T17:10:13.383843+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:13.383843+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:13.388487+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:10:13.388487+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:10:13.388675+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:10:13.388675+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:10:13.388776+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:10:13.388776+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:10:13.388861+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:13.388861+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:13.388941+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:13.388941+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:13.389832+0900 DEBUG current_node: 4
+2024-11-04T17:10:13.389832+0900 DEBUG current_node: 4
+2024-11-04T17:10:13.390511+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:10:13.390511+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:10:13.390635+0900 DEBUG node_type: textarea
+2024-11-04T17:10:13.390635+0900 DEBUG node_type: textarea
+2024-11-04T17:10:13.390854+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:10:13.390854+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:10:13.391075+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:13.391075+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:13.394514+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:10:13.394514+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:10:13.394676+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:13.394676+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:13.394857+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:13.394857+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:13.395020+0900 DEBUG node_type: textarea
+2024-11-04T17:10:13.395020+0900 DEBUG node_type: textarea
+2024-11-04T17:10:13.395377+0900 INFO Still Collecting Information
+2024-11-04T17:10:13.395377+0900 INFO Still Collecting Information
+2024-11-04T17:10:39.303960+0900 DEBUG current_path: {current_path}
+2024-11-04T17:10:39.303960+0900 DEBUG current_path: {current_path}
+2024-11-04T17:10:39.303960+0900 DEBUG current_path: {current_path}
+2024-11-04T17:10:39.304788+0900 DEBUG current_node: 1
+2024-11-04T17:10:39.304788+0900 DEBUG current_node: 1
+2024-11-04T17:10:39.304788+0900 DEBUG current_node: 1
+2024-11-04T17:10:39.305642+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:10:39.305642+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:10:39.305642+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:10:39.305824+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:39.305824+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:39.305824+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:39.305956+0900 DEBUG node_text: Type of case?
+2024-11-04T17:10:39.305956+0900 DEBUG node_text: Type of case?
+2024-11-04T17:10:39.305956+0900 DEBUG node_text: Type of case?
+2024-11-04T17:10:39.306077+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:39.306077+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:39.306077+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:39.311162+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:10:39.311162+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:10:39.311162+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:10:39.311364+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:10:39.311364+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:10:39.311364+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:10:39.311510+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:10:39.311510+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:10:39.311510+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:10:39.311616+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:39.311616+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:39.311616+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:39.311712+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:39.311712+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:39.311712+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:39.312414+0900 DEBUG current_node: 4
+2024-11-04T17:10:39.312414+0900 DEBUG current_node: 4
+2024-11-04T17:10:39.312414+0900 DEBUG current_node: 4
+2024-11-04T17:10:39.313006+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:10:39.313006+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:10:39.313006+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:10:39.313447+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.313447+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.313447+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.313637+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:10:39.313637+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:10:39.313637+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:10:39.313755+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:39.313755+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:39.313755+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:39.317980+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:10:39.317980+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:10:39.317980+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:10:39.318194+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:39.318194+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:39.318194+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:39.318497+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:39.318497+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:39.318497+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:39.318736+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.318736+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.318736+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.319547+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:10:39.319547+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:10:39.319547+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:10:39.319862+0900 DEBUG next_node: 10
+2024-11-04T17:10:39.319862+0900 DEBUG next_node: 10
+2024-11-04T17:10:39.319862+0900 DEBUG next_node: 10
+2024-11-04T17:10:39.320004+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:10:39.320004+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:10:39.320004+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:10:39.320359+0900 DEBUG current_node: 10
+2024-11-04T17:10:39.320359+0900 DEBUG current_node: 10
+2024-11-04T17:10:39.320359+0900 DEBUG current_node: 10
+2024-11-04T17:10:39.321008+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:10:39.321008+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:10:39.321008+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:10:39.321162+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.321162+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.321162+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.321302+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:10:39.321302+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:10:39.321302+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:10:39.321420+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:39.321420+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:39.321420+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:39.325437+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:10:39.325437+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:10:39.325437+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:10:39.325609+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:39.325609+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:39.325609+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:39.325717+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:39.325717+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:39.325717+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:39.325805+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.325805+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.325805+0900 DEBUG node_type: textarea
+2024-11-04T17:10:39.326118+0900 INFO Still Collecting Information
+2024-11-04T17:10:39.326118+0900 INFO Still Collecting Information
+2024-11-04T17:10:39.326118+0900 INFO Still Collecting Information
+2024-11-04T17:10:59.244348+0900 DEBUG current_path: {current_path}
+2024-11-04T17:10:59.244348+0900 DEBUG current_path: {current_path}
+2024-11-04T17:10:59.244348+0900 DEBUG current_path: {current_path}
+2024-11-04T17:10:59.244348+0900 DEBUG current_path: {current_path}
+2024-11-04T17:10:59.245158+0900 DEBUG current_node: 1
+2024-11-04T17:10:59.245158+0900 DEBUG current_node: 1
+2024-11-04T17:10:59.245158+0900 DEBUG current_node: 1
+2024-11-04T17:10:59.245158+0900 DEBUG current_node: 1
+2024-11-04T17:10:59.245913+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:10:59.245913+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:10:59.245913+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:10:59.245913+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:10:59.246168+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.246168+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.246168+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.246168+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.246317+0900 DEBUG node_text: Type of case?
+2024-11-04T17:10:59.246317+0900 DEBUG node_text: Type of case?
+2024-11-04T17:10:59.246317+0900 DEBUG node_text: Type of case?
+2024-11-04T17:10:59.246317+0900 DEBUG node_text: Type of case?
+2024-11-04T17:10:59.246470+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.246470+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.246470+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.246470+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.251412+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:10:59.251412+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:10:59.251412+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:10:59.251412+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:10:59.251657+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:10:59.251657+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:10:59.251657+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:10:59.251657+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:10:59.251795+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:10:59.251795+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:10:59.251795+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:10:59.251795+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:10:59.251901+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.251901+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.251901+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.251901+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.251997+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:59.251997+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:59.251997+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:59.251997+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:59.252671+0900 DEBUG current_node: 4
+2024-11-04T17:10:59.252671+0900 DEBUG current_node: 4
+2024-11-04T17:10:59.252671+0900 DEBUG current_node: 4
+2024-11-04T17:10:59.252671+0900 DEBUG current_node: 4
+2024-11-04T17:10:59.253471+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:10:59.253471+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:10:59.253471+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:10:59.253471+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:10:59.253674+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.253674+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.253674+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.253674+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.253929+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:10:59.253929+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:10:59.253929+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:10:59.253929+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:10:59.254047+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.254047+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.254047+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.254047+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.257468+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:10:59.257468+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:10:59.257468+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:10:59.257468+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:10:59.257742+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:59.257742+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:59.257742+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:59.257742+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:59.257863+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:59.257863+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:59.257863+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:59.257863+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:10:59.257977+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.257977+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.257977+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.257977+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.258458+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:10:59.258458+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:10:59.258458+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:10:59.258458+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:10:59.258577+0900 DEBUG next_node: 10
+2024-11-04T17:10:59.258577+0900 DEBUG next_node: 10
+2024-11-04T17:10:59.258577+0900 DEBUG next_node: 10
+2024-11-04T17:10:59.258577+0900 DEBUG next_node: 10
+2024-11-04T17:10:59.258741+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:10:59.258741+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:10:59.258741+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:10:59.258741+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:10:59.259117+0900 DEBUG current_node: 10
+2024-11-04T17:10:59.259117+0900 DEBUG current_node: 10
+2024-11-04T17:10:59.259117+0900 DEBUG current_node: 10
+2024-11-04T17:10:59.259117+0900 DEBUG current_node: 10
+2024-11-04T17:10:59.259676+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:10:59.259676+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:10:59.259676+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:10:59.259676+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:10:59.259827+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.259827+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.259827+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.259827+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.259959+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:10:59.259959+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:10:59.259959+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:10:59.259959+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:10:59.260071+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.260071+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.260071+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.260071+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.263990+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:10:59.263990+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:10:59.263990+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:10:59.263990+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:10:59.264188+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:59.264188+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:59.264188+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:59.264188+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:59.264307+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:59.264307+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:59.264307+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:59.264307+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:10:59.264399+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.264399+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.264399+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.264399+0900 DEBUG node_type: textarea
+2024-11-04T17:10:59.264963+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:10:59.264963+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:10:59.264963+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:10:59.264963+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:10:59.265176+0900 DEBUG next_node: 11
+2024-11-04T17:10:59.265176+0900 DEBUG next_node: 11
+2024-11-04T17:10:59.265176+0900 DEBUG next_node: 11
+2024-11-04T17:10:59.265176+0900 DEBUG next_node: 11
+2024-11-04T17:10:59.265343+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:10:59.265343+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:10:59.265343+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:10:59.265343+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:10:59.265753+0900 DEBUG current_node: 11
+2024-11-04T17:10:59.265753+0900 DEBUG current_node: 11
+2024-11-04T17:10:59.265753+0900 DEBUG current_node: 11
+2024-11-04T17:10:59.265753+0900 DEBUG current_node: 11
+2024-11-04T17:10:59.266333+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:10:59.266333+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:10:59.266333+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:10:59.266333+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:10:59.266479+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.266479+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.266479+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.266479+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.266570+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:10:59.266570+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:10:59.266570+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:10:59.266570+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:10:59.266653+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.266653+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.266653+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.266653+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:10:59.270737+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:10:59.270737+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:10:59.270737+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:10:59.270737+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:10:59.271036+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:10:59.271036+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:10:59.271036+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:10:59.271036+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:10:59.271220+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:10:59.271220+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:10:59.271220+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:10:59.271220+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:10:59.271323+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.271323+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.271323+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.271323+0900 DEBUG node_type: selectbox
+2024-11-04T17:10:59.271495+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:59.271495+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:59.271495+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:59.271495+0900 DEBUG Branch Selectbox
+2024-11-04T17:10:59.271970+0900 INFO Still Collecting Information
+2024-11-04T17:10:59.271970+0900 INFO Still Collecting Information
+2024-11-04T17:10:59.271970+0900 INFO Still Collecting Information
+2024-11-04T17:10:59.271970+0900 INFO Still Collecting Information
+2024-11-04T17:11:04.338948+0900 DEBUG current_path: {current_path}
+2024-11-04T17:11:04.338948+0900 DEBUG current_path: {current_path}
+2024-11-04T17:11:04.338948+0900 DEBUG current_path: {current_path}
+2024-11-04T17:11:04.338948+0900 DEBUG current_path: {current_path}
+2024-11-04T17:11:04.338948+0900 DEBUG current_path: {current_path}
+2024-11-04T17:11:04.339393+0900 DEBUG current_node: 1
+2024-11-04T17:11:04.339393+0900 DEBUG current_node: 1
+2024-11-04T17:11:04.339393+0900 DEBUG current_node: 1
+2024-11-04T17:11:04.339393+0900 DEBUG current_node: 1
+2024-11-04T17:11:04.339393+0900 DEBUG current_node: 1
+2024-11-04T17:11:04.340029+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:11:04.340029+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:11:04.340029+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:11:04.340029+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:11:04.340029+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:11:04.340212+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.340212+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.340212+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.340212+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.340212+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.340332+0900 DEBUG node_text: Type of case?
+2024-11-04T17:11:04.340332+0900 DEBUG node_text: Type of case?
+2024-11-04T17:11:04.340332+0900 DEBUG node_text: Type of case?
+2024-11-04T17:11:04.340332+0900 DEBUG node_text: Type of case?
+2024-11-04T17:11:04.340332+0900 DEBUG node_text: Type of case?
+2024-11-04T17:11:04.340445+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.340445+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.340445+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.340445+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.340445+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.345210+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:11:04.345210+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:11:04.345210+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:11:04.345210+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:11:04.345210+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:11:04.345500+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:11:04.345500+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:11:04.345500+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:11:04.345500+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:11:04.345500+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:11:04.345648+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:11:04.345648+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:11:04.345648+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:11:04.345648+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:11:04.345648+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:11:04.345796+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.345796+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.345796+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.345796+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.345796+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.345920+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:04.345920+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:04.345920+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:04.345920+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:04.345920+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:04.346647+0900 DEBUG current_node: 4
+2024-11-04T17:11:04.346647+0900 DEBUG current_node: 4
+2024-11-04T17:11:04.346647+0900 DEBUG current_node: 4
+2024-11-04T17:11:04.346647+0900 DEBUG current_node: 4
+2024-11-04T17:11:04.346647+0900 DEBUG current_node: 4
+2024-11-04T17:11:04.347303+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:11:04.347303+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:11:04.347303+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:11:04.347303+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:11:04.347303+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:11:04.347484+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.347484+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.347484+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.347484+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.347484+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.347826+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:11:04.347826+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:11:04.347826+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:11:04.347826+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:11:04.347826+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:11:04.347958+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.347958+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.347958+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.347958+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.347958+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.351160+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:11:04.351160+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:11:04.351160+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:11:04.351160+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:11:04.351160+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:11:04.351359+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:04.351359+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:04.351359+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:04.351359+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:04.351359+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:04.351551+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:04.351551+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:04.351551+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:04.351551+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:04.351551+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:04.351946+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.351946+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.351946+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.351946+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.351946+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.352722+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:11:04.352722+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:11:04.352722+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:11:04.352722+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:11:04.352722+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:11:04.352980+0900 DEBUG next_node: 10
+2024-11-04T17:11:04.352980+0900 DEBUG next_node: 10
+2024-11-04T17:11:04.352980+0900 DEBUG next_node: 10
+2024-11-04T17:11:04.352980+0900 DEBUG next_node: 10
+2024-11-04T17:11:04.352980+0900 DEBUG next_node: 10
+2024-11-04T17:11:04.353135+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:11:04.353135+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:11:04.353135+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:11:04.353135+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:11:04.353135+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:11:04.353505+0900 DEBUG current_node: 10
+2024-11-04T17:11:04.353505+0900 DEBUG current_node: 10
+2024-11-04T17:11:04.353505+0900 DEBUG current_node: 10
+2024-11-04T17:11:04.353505+0900 DEBUG current_node: 10
+2024-11-04T17:11:04.353505+0900 DEBUG current_node: 10
+2024-11-04T17:11:04.354172+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:11:04.354172+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:11:04.354172+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:11:04.354172+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:11:04.354172+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:11:04.354325+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.354325+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.354325+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.354325+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.354325+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.354441+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:11:04.354441+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:11:04.354441+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:11:04.354441+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:11:04.354441+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:11:04.354552+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.354552+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.354552+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.354552+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.354552+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.358422+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:11:04.358422+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:11:04.358422+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:11:04.358422+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:11:04.358422+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:11:04.358584+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:04.358584+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:04.358584+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:04.358584+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:04.358584+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:04.358695+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:04.358695+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:04.358695+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:04.358695+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:04.358695+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:04.358796+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.358796+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.358796+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.358796+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.358796+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.359223+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:11:04.359223+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:11:04.359223+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:11:04.359223+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:11:04.359223+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:11:04.359515+0900 DEBUG next_node: 11
+2024-11-04T17:11:04.359515+0900 DEBUG next_node: 11
+2024-11-04T17:11:04.359515+0900 DEBUG next_node: 11
+2024-11-04T17:11:04.359515+0900 DEBUG next_node: 11
+2024-11-04T17:11:04.359515+0900 DEBUG next_node: 11
+2024-11-04T17:11:04.359710+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:11:04.359710+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:11:04.359710+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:11:04.359710+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:11:04.359710+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:11:04.360090+0900 DEBUG current_node: 11
+2024-11-04T17:11:04.360090+0900 DEBUG current_node: 11
+2024-11-04T17:11:04.360090+0900 DEBUG current_node: 11
+2024-11-04T17:11:04.360090+0900 DEBUG current_node: 11
+2024-11-04T17:11:04.360090+0900 DEBUG current_node: 11
+2024-11-04T17:11:04.360653+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:11:04.360653+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:11:04.360653+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:11:04.360653+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:11:04.360653+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:11:04.360801+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.360801+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.360801+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.360801+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.360801+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.360914+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:11:04.360914+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:11:04.360914+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:11:04.360914+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:11:04.360914+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:11:04.361017+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.361017+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.361017+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.361017+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.361017+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.365218+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:11:04.365218+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:11:04.365218+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:11:04.365218+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:11:04.365218+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:11:04.365593+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:04.365593+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:04.365593+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:04.365593+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:04.365593+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:04.365835+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:04.365835+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:04.365835+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:04.365835+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:04.365835+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:04.366101+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.366101+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.366101+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.366101+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.366101+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:04.366212+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:04.366212+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:04.366212+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:04.366212+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:04.366212+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:04.366870+0900 DEBUG current_node: 52
+2024-11-04T17:11:04.366870+0900 DEBUG current_node: 52
+2024-11-04T17:11:04.366870+0900 DEBUG current_node: 52
+2024-11-04T17:11:04.366870+0900 DEBUG current_node: 52
+2024-11-04T17:11:04.366870+0900 DEBUG current_node: 52
+2024-11-04T17:11:04.367496+0900 DEBUG node_row: nodeID                                                52
+nodeType                                        textarea
+parentID                                            11.0
+option                       Secondary transfer scenario
+nodeText            What is the alternative proposition?
+ScenarioCategory                                     2.0
+H_p                                                  NaN
+H_a                                                  NaN
+TypeOfCase                                           NaN
+Name: 51, dtype: object
+2024-11-04T17:11:04.367496+0900 DEBUG node_row: nodeID                                                52
+nodeType                                        textarea
+parentID                                            11.0
+option                       Secondary transfer scenario
+nodeText            What is the alternative proposition?
+ScenarioCategory                                     2.0
+H_p                                                  NaN
+H_a                                                  NaN
+TypeOfCase                                           NaN
+Name: 51, dtype: object
+2024-11-04T17:11:04.367496+0900 DEBUG node_row: nodeID                                                52
+nodeType                                        textarea
+parentID                                            11.0
+option                       Secondary transfer scenario
+nodeText            What is the alternative proposition?
+ScenarioCategory                                     2.0
+H_p                                                  NaN
+H_a                                                  NaN
+TypeOfCase                                           NaN
+Name: 51, dtype: object
+2024-11-04T17:11:04.367496+0900 DEBUG node_row: nodeID                                                52
+nodeType                                        textarea
+parentID                                            11.0
+option                       Secondary transfer scenario
+nodeText            What is the alternative proposition?
+ScenarioCategory                                     2.0
+H_p                                                  NaN
+H_a                                                  NaN
+TypeOfCase                                           NaN
+Name: 51, dtype: object
+2024-11-04T17:11:04.367496+0900 DEBUG node_row: nodeID                                                52
+nodeType                                        textarea
+parentID                                            11.0
+option                       Secondary transfer scenario
+nodeText            What is the alternative proposition?
+ScenarioCategory                                     2.0
+H_p                                                  NaN
+H_a                                                  NaN
+TypeOfCase                                           NaN
+Name: 51, dtype: object
+2024-11-04T17:11:04.367656+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.367656+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.367656+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.367656+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.367656+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.367758+0900 DEBUG node_text: What is the alternative proposition?
+2024-11-04T17:11:04.367758+0900 DEBUG node_text: What is the alternative proposition?
+2024-11-04T17:11:04.367758+0900 DEBUG node_text: What is the alternative proposition?
+2024-11-04T17:11:04.367758+0900 DEBUG node_text: What is the alternative proposition?
+2024-11-04T17:11:04.367758+0900 DEBUG node_text: What is the alternative proposition?
+2024-11-04T17:11:04.367848+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.367848+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.367848+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.367848+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.367848+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:04.370676+0900 DEBUG children_rows:     nodeID nodeType  parentID option nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+82      83     leaf      52.0    NaN      NaN               NaN  NaN  NaN        NaN
+2024-11-04T17:11:04.370676+0900 DEBUG children_rows:     nodeID nodeType  parentID option nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+82      83     leaf      52.0    NaN      NaN               NaN  NaN  NaN        NaN
+2024-11-04T17:11:04.370676+0900 DEBUG children_rows:     nodeID nodeType  parentID option nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+82      83     leaf      52.0    NaN      NaN               NaN  NaN  NaN        NaN
+2024-11-04T17:11:04.370676+0900 DEBUG children_rows:     nodeID nodeType  parentID option nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+82      83     leaf      52.0    NaN      NaN               NaN  NaN  NaN        NaN
+2024-11-04T17:11:04.370676+0900 DEBUG children_rows:     nodeID nodeType  parentID option nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+82      83     leaf      52.0    NaN      NaN               NaN  NaN  NaN        NaN
+2024-11-04T17:11:04.370828+0900 DEBUG node_dict: {'nodeID': 52, 'nodeType': 'textarea', 'parentID': 11.0, 'option': 'Secondary transfer scenario', 'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:04.370828+0900 DEBUG node_dict: {'nodeID': 52, 'nodeType': 'textarea', 'parentID': 11.0, 'option': 'Secondary transfer scenario', 'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:04.370828+0900 DEBUG node_dict: {'nodeID': 52, 'nodeType': 'textarea', 'parentID': 11.0, 'option': 'Secondary transfer scenario', 'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:04.370828+0900 DEBUG node_dict: {'nodeID': 52, 'nodeType': 'textarea', 'parentID': 11.0, 'option': 'Secondary transfer scenario', 'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:04.370828+0900 DEBUG node_dict: {'nodeID': 52, 'nodeType': 'textarea', 'parentID': 11.0, 'option': 'Secondary transfer scenario', 'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:04.370937+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:04.370937+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:04.370937+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:04.370937+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:04.370937+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:04.371035+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.371035+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.371035+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.371035+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.371035+0900 DEBUG node_type: textarea
+2024-11-04T17:11:04.371316+0900 INFO Still Collecting Information
+2024-11-04T17:11:04.371316+0900 INFO Still Collecting Information
+2024-11-04T17:11:04.371316+0900 INFO Still Collecting Information
+2024-11-04T17:11:04.371316+0900 INFO Still Collecting Information
+2024-11-04T17:11:04.371316+0900 INFO Still Collecting Information
+2024-11-04T17:11:16.153587+0900 DEBUG current_path: {current_path}
+2024-11-04T17:11:16.153587+0900 DEBUG current_path: {current_path}
+2024-11-04T17:11:16.153587+0900 DEBUG current_path: {current_path}
+2024-11-04T17:11:16.153587+0900 DEBUG current_path: {current_path}
+2024-11-04T17:11:16.153587+0900 DEBUG current_path: {current_path}
+2024-11-04T17:11:16.153587+0900 DEBUG current_path: {current_path}
+2024-11-04T17:11:16.154542+0900 DEBUG current_node: 1
+2024-11-04T17:11:16.154542+0900 DEBUG current_node: 1
+2024-11-04T17:11:16.154542+0900 DEBUG current_node: 1
+2024-11-04T17:11:16.154542+0900 DEBUG current_node: 1
+2024-11-04T17:11:16.154542+0900 DEBUG current_node: 1
+2024-11-04T17:11:16.154542+0900 DEBUG current_node: 1
+2024-11-04T17:11:16.155444+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:11:16.155444+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:11:16.155444+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:11:16.155444+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:11:16.155444+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:11:16.155444+0900 DEBUG node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04T17:11:16.155876+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.155876+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.155876+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.155876+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.155876+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.155876+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.156140+0900 DEBUG node_text: Type of case?
+2024-11-04T17:11:16.156140+0900 DEBUG node_text: Type of case?
+2024-11-04T17:11:16.156140+0900 DEBUG node_text: Type of case?
+2024-11-04T17:11:16.156140+0900 DEBUG node_text: Type of case?
+2024-11-04T17:11:16.156140+0900 DEBUG node_text: Type of case?
+2024-11-04T17:11:16.156140+0900 DEBUG node_text: Type of case?
+2024-11-04T17:11:16.156377+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.156377+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.156377+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.156377+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.156377+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.156377+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.160951+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:11:16.160951+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:11:16.160951+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:11:16.160951+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:11:16.160951+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:11:16.160951+0900 DEBUG children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04T17:11:16.161187+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161187+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161187+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161187+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161187+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161187+0900 DEBUG node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161321+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161321+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161321+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161321+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161321+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161321+0900 DEBUG node_dict: {'nodeText': 'Type of case?'}
+2024-11-04T17:11:16.161437+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.161437+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.161437+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.161437+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.161437+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.161437+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.161544+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.161544+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.161544+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.161544+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.161544+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.161544+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.162165+0900 DEBUG current_node: 4
+2024-11-04T17:11:16.162165+0900 DEBUG current_node: 4
+2024-11-04T17:11:16.162165+0900 DEBUG current_node: 4
+2024-11-04T17:11:16.162165+0900 DEBUG current_node: 4
+2024-11-04T17:11:16.162165+0900 DEBUG current_node: 4
+2024-11-04T17:11:16.162165+0900 DEBUG current_node: 4
+2024-11-04T17:11:16.163018+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:11:16.163018+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:11:16.163018+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:11:16.163018+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:11:16.163018+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:11:16.163018+0900 DEBUG node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04T17:11:16.163235+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.163235+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.163235+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.163235+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.163235+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.163235+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.163364+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:11:16.163364+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:11:16.163364+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:11:16.163364+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:11:16.163364+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:11:16.163364+0900 DEBUG node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04T17:11:16.163488+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.163488+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.163488+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.163488+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.163488+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.163488+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.167026+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.167026+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.167026+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.167026+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.167026+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.167026+0900 DEBUG children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.167348+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167348+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167348+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167348+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167348+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167348+0900 DEBUG node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167712+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167712+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167712+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167712+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167712+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167712+0900 DEBUG node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04T17:11:16.167971+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.167971+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.167971+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.167971+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.167971+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.167971+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.168451+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.168451+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.168451+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.168451+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.168451+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.168451+0900 DEBUG next_children_rows: 9    10
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.168651+0900 DEBUG next_node: 10
+2024-11-04T17:11:16.168651+0900 DEBUG next_node: 10
+2024-11-04T17:11:16.168651+0900 DEBUG next_node: 10
+2024-11-04T17:11:16.168651+0900 DEBUG next_node: 10
+2024-11-04T17:11:16.168651+0900 DEBUG next_node: 10
+2024-11-04T17:11:16.168651+0900 DEBUG next_node: 10
+2024-11-04T17:11:16.168805+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:11:16.168805+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:11:16.168805+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:11:16.168805+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:11:16.168805+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:11:16.168805+0900 DEBUG current_path: [1, 4, 10]
+2024-11-04T17:11:16.169071+0900 DEBUG current_node: 10
+2024-11-04T17:11:16.169071+0900 DEBUG current_node: 10
+2024-11-04T17:11:16.169071+0900 DEBUG current_node: 10
+2024-11-04T17:11:16.169071+0900 DEBUG current_node: 10
+2024-11-04T17:11:16.169071+0900 DEBUG current_node: 10
+2024-11-04T17:11:16.169071+0900 DEBUG current_node: 10
+2024-11-04T17:11:16.169553+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:11:16.169553+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:11:16.169553+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:11:16.169553+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:11:16.169553+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:11:16.169553+0900 DEBUG node_row: nodeID                                           10
+nodeType                                   textarea
+parentID                                        4.0
+option                                          NaN
+nodeText            and ______________ (date, time)
+ScenarioCategory                                NaN
+H_p                                             NaN
+H_a                                             NaN
+TypeOfCase                                      NaN
+Name: 9, dtype: object
+2024-11-04T17:11:16.169681+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.169681+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.169681+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.169681+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.169681+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.169681+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.169782+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:11:16.169782+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:11:16.169782+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:11:16.169782+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:11:16.169782+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:11:16.169782+0900 DEBUG node_text: and ______________ (date, time)
+2024-11-04T17:11:16.169881+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.169881+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.169881+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.169881+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.169881+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.169881+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.173053+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:11:16.173053+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:11:16.173053+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:11:16.173053+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:11:16.173053+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:11:16.173053+0900 DEBUG children_rows:     nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+10      11  selectbox      10.0  ...  The Suspect drove the car between __________ a...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04T17:11:16.173211+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173211+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173211+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173211+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173211+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173211+0900 DEBUG node_dict: {'nodeID': 10, 'nodeType': 'textarea', 'parentID': 4.0, 'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173347+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173347+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173347+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173347+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173347+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173347+0900 DEBUG node_dict: {'nodeText': 'and ______________ (date, time)'}
+2024-11-04T17:11:16.173459+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.173459+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.173459+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.173459+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.173459+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.173459+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.174272+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.174272+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.174272+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.174272+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.174272+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.174272+0900 DEBUG next_children_rows: 10    11
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.174543+0900 DEBUG next_node: 11
+2024-11-04T17:11:16.174543+0900 DEBUG next_node: 11
+2024-11-04T17:11:16.174543+0900 DEBUG next_node: 11
+2024-11-04T17:11:16.174543+0900 DEBUG next_node: 11
+2024-11-04T17:11:16.174543+0900 DEBUG next_node: 11
+2024-11-04T17:11:16.174543+0900 DEBUG next_node: 11
+2024-11-04T17:11:16.174673+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:11:16.174673+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:11:16.174673+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:11:16.174673+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:11:16.174673+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:11:16.174673+0900 DEBUG current_path: [1, 4, 10, 11]
+2024-11-04T17:11:16.174900+0900 DEBUG current_node: 11
+2024-11-04T17:11:16.174900+0900 DEBUG current_node: 11
+2024-11-04T17:11:16.174900+0900 DEBUG current_node: 11
+2024-11-04T17:11:16.174900+0900 DEBUG current_node: 11
+2024-11-04T17:11:16.174900+0900 DEBUG current_node: 11
+2024-11-04T17:11:16.174900+0900 DEBUG current_node: 11
+2024-11-04T17:11:16.175463+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:11:16.175463+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:11:16.175463+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:11:16.175463+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:11:16.175463+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:11:16.175463+0900 DEBUG node_row: nodeID                                                             11
+nodeType                                                    selectbox
+parentID                                                         10.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect drove the car between __________ a...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 10, dtype: object
+2024-11-04T17:11:16.175593+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.175593+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.175593+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.175593+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.175593+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.175593+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.175688+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:11:16.175688+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:11:16.175688+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:11:16.175688+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:11:16.175688+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:11:16.175688+0900 DEBUG node_text: What is the alternative proposition / scenario?
+2024-11-04T17:11:16.175781+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.175781+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.175781+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.175781+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.175781+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.175781+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.179623+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:11:16.179623+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:11:16.179623+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:11:16.179623+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:11:16.179623+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:11:16.179623+0900 DEBUG children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+47      48      leaf      11.0  ...  NaN  Someone else drove the car between ________ an...         NaN
+48      49  textarea      11.0  ...  NaN                                                NaN         NaN
+49      50  textarea      11.0  ...  NaN                                                NaN         NaN
+50      51  textarea      11.0  ...  NaN                                                NaN         NaN
+51      52  textarea      11.0  ...  NaN                                                NaN         NaN
+52      53  textarea      11.0  ...  NaN                                                NaN         NaN
+53      54  textarea      11.0  ...  NaN                                                NaN         NaN
+54      55      leaf      11.0  ...  NaN  Suspect did not drive the car (no alternative ...         NaN
+
+[8 rows x 9 columns]
+2024-11-04T17:11:16.179826+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.179826+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.179826+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.179826+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.179826+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.179826+0900 DEBUG node_dict: {'nodeID': 11, 'nodeType': 'selectbox', 'parentID': 10.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.180089+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.180089+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.180089+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.180089+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.180089+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.180089+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect drove the car between __________ and ____________ .'}
+2024-11-04T17:11:16.180329+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.180329+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.180329+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.180329+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.180329+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.180329+0900 DEBUG node_type: selectbox
+2024-11-04T17:11:16.180766+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.180766+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.180766+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.180766+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.180766+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.180766+0900 DEBUG Branch Selectbox
+2024-11-04T17:11:16.181315+0900 DEBUG current_node: 52
+2024-11-04T17:11:16.181315+0900 DEBUG current_node: 52
+2024-11-04T17:11:16.181315+0900 DEBUG current_node: 52
+2024-11-04T17:11:16.181315+0900 DEBUG current_node: 52
+2024-11-04T17:11:16.181315+0900 DEBUG current_node: 52
+2024-11-04T17:11:16.181315+0900 DEBUG current_node: 52
+2024-11-04T17:11:16.181798+0900 DEBUG node_row: nodeID                                                52
+nodeType                                        textarea
+parentID                                            11.0
+option                       Secondary transfer scenario
+nodeText            What is the alternative proposition?
+ScenarioCategory                                     2.0
+H_p                                                  NaN
+H_a                                                  NaN
+TypeOfCase                                           NaN
+Name: 51, dtype: object
+2024-11-04T17:11:16.181798+0900 DEBUG node_row: nodeID                                                52
+nodeType                                        textarea
+parentID                                            11.0
+option                       Secondary transfer scenario
+nodeText            What is the alternative proposition?
+ScenarioCategory                                     2.0
+H_p                                                  NaN
+H_a                                                  NaN
+TypeOfCase                                           NaN
+Name: 51, dtype: object
+2024-11-04T17:11:16.181798+0900 DEBUG node_row: nodeID                                                52
+nodeType                                        textarea
+parentID                                            11.0
+option                       Secondary transfer scenario
+nodeText            What is the alternative proposition?
+ScenarioCategory                                     2.0
+H_p                                                  NaN
+H_a                                                  NaN
+TypeOfCase                                           NaN
+Name: 51, dtype: object
+2024-11-04T17:11:16.181798+0900 DEBUG node_row: nodeID                                                52
+nodeType                                        textarea
+parentID                                            11.0
+option                       Secondary transfer scenario
+nodeText            What is the alternative proposition?
+ScenarioCategory                                     2.0
+H_p                                                  NaN
+H_a                                                  NaN
+TypeOfCase                                           NaN
+Name: 51, dtype: object
+2024-11-04T17:11:16.181798+0900 DEBUG node_row: nodeID                                                52
+nodeType                                        textarea
+parentID                                            11.0
+option                       Secondary transfer scenario
+nodeText            What is the alternative proposition?
+ScenarioCategory                                     2.0
+H_p                                                  NaN
+H_a                                                  NaN
+TypeOfCase                                           NaN
+Name: 51, dtype: object
+2024-11-04T17:11:16.181798+0900 DEBUG node_row: nodeID                                                52
+nodeType                                        textarea
+parentID                                            11.0
+option                       Secondary transfer scenario
+nodeText            What is the alternative proposition?
+ScenarioCategory                                     2.0
+H_p                                                  NaN
+H_a                                                  NaN
+TypeOfCase                                           NaN
+Name: 51, dtype: object
+2024-11-04T17:11:16.182102+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.182102+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.182102+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.182102+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.182102+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.182102+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.182241+0900 DEBUG node_text: What is the alternative proposition?
+2024-11-04T17:11:16.182241+0900 DEBUG node_text: What is the alternative proposition?
+2024-11-04T17:11:16.182241+0900 DEBUG node_text: What is the alternative proposition?
+2024-11-04T17:11:16.182241+0900 DEBUG node_text: What is the alternative proposition?
+2024-11-04T17:11:16.182241+0900 DEBUG node_text: What is the alternative proposition?
+2024-11-04T17:11:16.182241+0900 DEBUG node_text: What is the alternative proposition?
+2024-11-04T17:11:16.182341+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.182341+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.182341+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.182341+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.182341+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.182341+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.185033+0900 DEBUG children_rows:     nodeID nodeType  parentID option nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+82      83     leaf      52.0    NaN      NaN               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.185033+0900 DEBUG children_rows:     nodeID nodeType  parentID option nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+82      83     leaf      52.0    NaN      NaN               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.185033+0900 DEBUG children_rows:     nodeID nodeType  parentID option nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+82      83     leaf      52.0    NaN      NaN               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.185033+0900 DEBUG children_rows:     nodeID nodeType  parentID option nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+82      83     leaf      52.0    NaN      NaN               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.185033+0900 DEBUG children_rows:     nodeID nodeType  parentID option nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+82      83     leaf      52.0    NaN      NaN               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.185033+0900 DEBUG children_rows:     nodeID nodeType  parentID option nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+82      83     leaf      52.0    NaN      NaN               NaN  NaN  NaN        NaN
+2024-11-04T17:11:16.185185+0900 DEBUG node_dict: {'nodeID': 52, 'nodeType': 'textarea', 'parentID': 11.0, 'option': 'Secondary transfer scenario', 'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185185+0900 DEBUG node_dict: {'nodeID': 52, 'nodeType': 'textarea', 'parentID': 11.0, 'option': 'Secondary transfer scenario', 'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185185+0900 DEBUG node_dict: {'nodeID': 52, 'nodeType': 'textarea', 'parentID': 11.0, 'option': 'Secondary transfer scenario', 'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185185+0900 DEBUG node_dict: {'nodeID': 52, 'nodeType': 'textarea', 'parentID': 11.0, 'option': 'Secondary transfer scenario', 'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185185+0900 DEBUG node_dict: {'nodeID': 52, 'nodeType': 'textarea', 'parentID': 11.0, 'option': 'Secondary transfer scenario', 'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185185+0900 DEBUG node_dict: {'nodeID': 52, 'nodeType': 'textarea', 'parentID': 11.0, 'option': 'Secondary transfer scenario', 'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185283+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185283+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185283+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185283+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185283+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185283+0900 DEBUG node_dict: {'nodeText': 'What is the alternative proposition?', 'ScenarioCategory': 2.0}
+2024-11-04T17:11:16.185373+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.185373+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.185373+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.185373+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.185373+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.185373+0900 DEBUG node_type: textarea
+2024-11-04T17:11:16.185786+0900 DEBUG next_children_rows: 82    83
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.185786+0900 DEBUG next_children_rows: 82    83
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.185786+0900 DEBUG next_children_rows: 82    83
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.185786+0900 DEBUG next_children_rows: 82    83
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.185786+0900 DEBUG next_children_rows: 82    83
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.185786+0900 DEBUG next_children_rows: 82    83
+Name: nodeID, dtype: int64
+2024-11-04T17:11:16.185965+0900 DEBUG next_node: 83
+2024-11-04T17:11:16.185965+0900 DEBUG next_node: 83
+2024-11-04T17:11:16.185965+0900 DEBUG next_node: 83
+2024-11-04T17:11:16.185965+0900 DEBUG next_node: 83
+2024-11-04T17:11:16.185965+0900 DEBUG next_node: 83
+2024-11-04T17:11:16.185965+0900 DEBUG next_node: 83
+2024-11-04T17:11:16.186057+0900 DEBUG current_path: [1, 4, 10, 11, 52, 83]
+2024-11-04T17:11:16.186057+0900 DEBUG current_path: [1, 4, 10, 11, 52, 83]
+2024-11-04T17:11:16.186057+0900 DEBUG current_path: [1, 4, 10, 11, 52, 83]
+2024-11-04T17:11:16.186057+0900 DEBUG current_path: [1, 4, 10, 11, 52, 83]
+2024-11-04T17:11:16.186057+0900 DEBUG current_path: [1, 4, 10, 11, 52, 83]
+2024-11-04T17:11:16.186057+0900 DEBUG current_path: [1, 4, 10, 11, 52, 83]
+2024-11-04T17:11:16.186308+0900 DEBUG current_node: 83
+2024-11-04T17:11:16.186308+0900 DEBUG current_node: 83
+2024-11-04T17:11:16.186308+0900 DEBUG current_node: 83
+2024-11-04T17:11:16.186308+0900 DEBUG current_node: 83
+2024-11-04T17:11:16.186308+0900 DEBUG current_node: 83
+2024-11-04T17:11:16.186308+0900 DEBUG current_node: 83
+2024-11-04T17:11:16.186700+0900 DEBUG node_row: nodeID                83
+nodeType            leaf
+parentID            52.0
+option               NaN
+nodeText             NaN
+ScenarioCategory     NaN
+H_p                  NaN
+H_a                  NaN
+TypeOfCase           NaN
+Name: 82, dtype: object
+2024-11-04T17:11:16.186700+0900 DEBUG node_row: nodeID                83
+nodeType            leaf
+parentID            52.0
+option               NaN
+nodeText             NaN
+ScenarioCategory     NaN
+H_p                  NaN
+H_a                  NaN
+TypeOfCase           NaN
+Name: 82, dtype: object
+2024-11-04T17:11:16.186700+0900 DEBUG node_row: nodeID                83
+nodeType            leaf
+parentID            52.0
+option               NaN
+nodeText             NaN
+ScenarioCategory     NaN
+H_p                  NaN
+H_a                  NaN
+TypeOfCase           NaN
+Name: 82, dtype: object
+2024-11-04T17:11:16.186700+0900 DEBUG node_row: nodeID                83
+nodeType            leaf
+parentID            52.0
+option               NaN
+nodeText             NaN
+ScenarioCategory     NaN
+H_p                  NaN
+H_a                  NaN
+TypeOfCase           NaN
+Name: 82, dtype: object
+2024-11-04T17:11:16.186700+0900 DEBUG node_row: nodeID                83
+nodeType            leaf
+parentID            52.0
+option               NaN
+nodeText             NaN
+ScenarioCategory     NaN
+H_p                  NaN
+H_a                  NaN
+TypeOfCase           NaN
+Name: 82, dtype: object
+2024-11-04T17:11:16.186700+0900 DEBUG node_row: nodeID                83
+nodeType            leaf
+parentID            52.0
+option               NaN
+nodeText             NaN
+ScenarioCategory     NaN
+H_p                  NaN
+H_a                  NaN
+TypeOfCase           NaN
+Name: 82, dtype: object
+2024-11-04T17:11:16.186853+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.186853+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.186853+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.186853+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.186853+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.186853+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.186965+0900 DEBUG node_text: nan
+2024-11-04T17:11:16.186965+0900 DEBUG node_text: nan
+2024-11-04T17:11:16.186965+0900 DEBUG node_text: nan
+2024-11-04T17:11:16.186965+0900 DEBUG node_text: nan
+2024-11-04T17:11:16.186965+0900 DEBUG node_text: nan
+2024-11-04T17:11:16.186965+0900 DEBUG node_text: nan
+2024-11-04T17:11:16.187078+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.187078+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.187078+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.187078+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.187078+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.187078+0900 DEBUG type(node_type): <class 'str'>
+2024-11-04T17:11:16.187490+0900 DEBUG children_rows: Empty DataFrame
+Columns: [nodeID, nodeType, parentID, option, nodeText, ScenarioCategory, H_p, H_a, TypeOfCase]
+Index: []
+2024-11-04T17:11:16.187490+0900 DEBUG children_rows: Empty DataFrame
+Columns: [nodeID, nodeType, parentID, option, nodeText, ScenarioCategory, H_p, H_a, TypeOfCase]
+Index: []
+2024-11-04T17:11:16.187490+0900 DEBUG children_rows: Empty DataFrame
+Columns: [nodeID, nodeType, parentID, option, nodeText, ScenarioCategory, H_p, H_a, TypeOfCase]
+Index: []
+2024-11-04T17:11:16.187490+0900 DEBUG children_rows: Empty DataFrame
+Columns: [nodeID, nodeType, parentID, option, nodeText, ScenarioCategory, H_p, H_a, TypeOfCase]
+Index: []
+2024-11-04T17:11:16.187490+0900 DEBUG children_rows: Empty DataFrame
+Columns: [nodeID, nodeType, parentID, option, nodeText, ScenarioCategory, H_p, H_a, TypeOfCase]
+Index: []
+2024-11-04T17:11:16.187490+0900 DEBUG children_rows: Empty DataFrame
+Columns: [nodeID, nodeType, parentID, option, nodeText, ScenarioCategory, H_p, H_a, TypeOfCase]
+Index: []
+2024-11-04T17:11:16.187611+0900 DEBUG node_dict: {'nodeID': 83, 'nodeType': 'leaf', 'parentID': 52.0}
+2024-11-04T17:11:16.187611+0900 DEBUG node_dict: {'nodeID': 83, 'nodeType': 'leaf', 'parentID': 52.0}
+2024-11-04T17:11:16.187611+0900 DEBUG node_dict: {'nodeID': 83, 'nodeType': 'leaf', 'parentID': 52.0}
+2024-11-04T17:11:16.187611+0900 DEBUG node_dict: {'nodeID': 83, 'nodeType': 'leaf', 'parentID': 52.0}
+2024-11-04T17:11:16.187611+0900 DEBUG node_dict: {'nodeID': 83, 'nodeType': 'leaf', 'parentID': 52.0}
+2024-11-04T17:11:16.187611+0900 DEBUG node_dict: {'nodeID': 83, 'nodeType': 'leaf', 'parentID': 52.0}
+2024-11-04T17:11:16.187700+0900 DEBUG node_dict: {}
+2024-11-04T17:11:16.187700+0900 DEBUG node_dict: {}
+2024-11-04T17:11:16.187700+0900 DEBUG node_dict: {}
+2024-11-04T17:11:16.187700+0900 DEBUG node_dict: {}
+2024-11-04T17:11:16.187700+0900 DEBUG node_dict: {}
+2024-11-04T17:11:16.187700+0900 DEBUG node_dict: {}
+2024-11-04T17:11:16.187782+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.187782+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.187782+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.187782+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.187782+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.187782+0900 DEBUG node_type: leaf
+2024-11-04T17:11:16.187906+0900 DEBUG Branch Leaf
+2024-11-04T17:11:16.187906+0900 DEBUG Branch Leaf
+2024-11-04T17:11:16.187906+0900 DEBUG Branch Leaf
+2024-11-04T17:11:16.187906+0900 DEBUG Branch Leaf
+2024-11-04T17:11:16.187906+0900 DEBUG Branch Leaf
+2024-11-04T17:11:16.187906+0900 DEBUG Branch Leaf
+2024-11-04T17:11:16.188335+0900 INFO Information Collected: ['nodeText: Type of case?\nselected_option: trace DNA (airbag)\n', "TypeOfCase: trace DNA\nnodeText: The prosecution's activity level proposition is that the Suspect drove the\n  car between ______________ (date, time)\nresponse: Thursday and Friday, noon\n", 'nodeText: and ______________ (date, time)\nresponse: ad 4567\n', 'H_p: The Suspect drove the car between __________ and ____________ .\nnodeText: What is the alternative proposition / scenario?\nselected_option: Secondary transfer scenario\n', 'ScenarioCategory: 2.0\nnodeText: What is the alternative proposition?\nresponse: the lizard people did it\n', '{}\n']
+2024-11-04T17:11:16.188335+0900 INFO Information Collected: ['nodeText: Type of case?\nselected_option: trace DNA (airbag)\n', "TypeOfCase: trace DNA\nnodeText: The prosecution's activity level proposition is that the Suspect drove the\n  car between ______________ (date, time)\nresponse: Thursday and Friday, noon\n", 'nodeText: and ______________ (date, time)\nresponse: ad 4567\n', 'H_p: The Suspect drove the car between __________ and ____________ .\nnodeText: What is the alternative proposition / scenario?\nselected_option: Secondary transfer scenario\n', 'ScenarioCategory: 2.0\nnodeText: What is the alternative proposition?\nresponse: the lizard people did it\n', '{}\n']
+2024-11-04T17:11:16.188335+0900 INFO Information Collected: ['nodeText: Type of case?\nselected_option: trace DNA (airbag)\n', "TypeOfCase: trace DNA\nnodeText: The prosecution's activity level proposition is that the Suspect drove the\n  car between ______________ (date, time)\nresponse: Thursday and Friday, noon\n", 'nodeText: and ______________ (date, time)\nresponse: ad 4567\n', 'H_p: The Suspect drove the car between __________ and ____________ .\nnodeText: What is the alternative proposition / scenario?\nselected_option: Secondary transfer scenario\n', 'ScenarioCategory: 2.0\nnodeText: What is the alternative proposition?\nresponse: the lizard people did it\n', '{}\n']
+2024-11-04T17:11:16.188335+0900 INFO Information Collected: ['nodeText: Type of case?\nselected_option: trace DNA (airbag)\n', "TypeOfCase: trace DNA\nnodeText: The prosecution's activity level proposition is that the Suspect drove the\n  car between ______________ (date, time)\nresponse: Thursday and Friday, noon\n", 'nodeText: and ______________ (date, time)\nresponse: ad 4567\n', 'H_p: The Suspect drove the car between __________ and ____________ .\nnodeText: What is the alternative proposition / scenario?\nselected_option: Secondary transfer scenario\n', 'ScenarioCategory: 2.0\nnodeText: What is the alternative proposition?\nresponse: the lizard people did it\n', '{}\n']
+2024-11-04T17:11:16.188335+0900 INFO Information Collected: ['nodeText: Type of case?\nselected_option: trace DNA (airbag)\n', "TypeOfCase: trace DNA\nnodeText: The prosecution's activity level proposition is that the Suspect drove the\n  car between ______________ (date, time)\nresponse: Thursday and Friday, noon\n", 'nodeText: and ______________ (date, time)\nresponse: ad 4567\n', 'H_p: The Suspect drove the car between __________ and ____________ .\nnodeText: What is the alternative proposition / scenario?\nselected_option: Secondary transfer scenario\n', 'ScenarioCategory: 2.0\nnodeText: What is the alternative proposition?\nresponse: the lizard people did it\n', '{}\n']
+2024-11-04T17:11:16.188335+0900 INFO Information Collected: ['nodeText: Type of case?\nselected_option: trace DNA (airbag)\n', "TypeOfCase: trace DNA\nnodeText: The prosecution's activity level proposition is that the Suspect drove the\n  car between ______________ (date, time)\nresponse: Thursday and Friday, noon\n", 'nodeText: and ______________ (date, time)\nresponse: ad 4567\n', 'H_p: The Suspect drove the car between __________ and ____________ .\nnodeText: What is the alternative proposition / scenario?\nselected_option: Secondary transfer scenario\n', 'ScenarioCategory: 2.0\nnodeText: What is the alternative proposition?\nresponse: the lizard people did it\n', '{}\n']

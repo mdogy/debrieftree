@@ -2,6 +2,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+from pandas import DataFrame
 from pathlib import Path
 from loguru import logger
 import yaml
@@ -10,19 +11,19 @@ import yaml
 LOGGER_FILE = "debug.log"
 MAXLOOP = 1000
 
-def display_question(data_loaded, 
-                     current_path, 
-                     collected_info):
+def display_question(data_loaded: DataFrame, 
+                     current_path: list[int], 
+                     collected_info: dict) -> None:
     """
-    Recursively display questions based on the tree and user's path.
+    Function to display questions and collect responses using the GUI toolkit streamlit
     
     Args:
-        tree (Dict[str, Dict]): The current level of the decision tree.
-        path (List[str]): The path of questions and answers chosen by the user.
-        depth (int): The current depth in the tree to manage unique keys.
+        data_loaded (DataFrame): pandas dataframe
+        current_path (list): list of nodeIDs
+        collected_info (dict): dictionary to store the collected information
     
     Returns:
-        Optional[str]: The final answer based on the user's selections, if any.
+        None (None): Since it is a streamlit app, it does not return anything   
     """
 
     # Base case: if the tree is a string, return it as the final answer
@@ -110,7 +111,16 @@ def display_question(data_loaded,
                                 default_flow_style=False)
             collected_info.append(formatted_node)
             
-def check_df(df, ROOTNODEID):
+def check_df(df: DataFrame, ROOTNODEID: int) -> bool:
+    """function to check if the dataframe is in the correct format after reading from the csv file
+
+    Args:
+        df (DataFrame): pandas dataframe
+        ROOTNODEID (int): root node id
+        
+    Returns:
+        check_passed (bool): True if the dataframe is in the correct format, False otherwise
+    """
     check_passed = True
     if 'nodeID' not in df.columns:
         logger.error("nodeID column is missing")
@@ -176,8 +186,12 @@ def check_df(df, ROOTNODEID):
    
     return check_passed 
                 
-def main():
+def main()-> None:
+    """Load the data from the csv file and display the questions, collect the responses and display the information collected and display a "report"
 
+    Raises:
+        Exception: Exception is raised if the dataframe check fails
+    """
     DATAPATH = Path("data/raw")
     FNAME = "SampleFormatTreeData.csv"
     FNAME = "DecisionTrees3.csv"
