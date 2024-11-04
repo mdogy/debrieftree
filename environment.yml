@@ -6,4 +6,4 @@ dependencies:
   - streamlit
   - numpy 
   - pandas
-  - yaml
+  - pyyaml
