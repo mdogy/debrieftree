@@ -2870,3 +2870,526 @@ Index: []
 2024-11-04 18:49:13,527:DEBUG:node_type: leaf
 2024-11-04 18:49:13,527:DEBUG:Branch Leaf
 2024-11-04 18:49:13,527:INFO:Information Collected: ['nodeText: Type of case?\nselected_option: blood\n', "TypeOfCase: blood\nnodeText: The prosecution's activity level proposition is that the Suspect ______________\n  the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).\nresponse: stabbed\n", "nodeText: In the prosecution's proposition, what weapon did the Suspect use?  (e.g.,\n  a knife, a baseball bat, an unknown weapon, no weapon)\nresponse: shoe\n", 'H_p: The Suspect ___________ the Complainant with ____________ .\nnodeText: What is the alternative proposition / scenario?\nselected_option: Suspect performed a different activity at a different time\n', 'ScenarioCategory: 2.0\nnodeText: What is the alternative proposition?\nresponse: ate friend\n', '{}\n']
+2024-11-04 19:32:27,028:DEBUG:current_path: {current_path}
+2024-11-04 19:32:27,029:DEBUG:current_node: 1
+2024-11-04 19:32:27,030:DEBUG:node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04 19:32:27,030:DEBUG:node_type: selectbox
+2024-11-04 19:32:27,031:DEBUG:node_text: Type of case?
+2024-11-04 19:32:27,031:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:32:27,036:DEBUG:children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04 19:32:27,036:DEBUG:node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04 19:32:27,036:DEBUG:node_dict: {'nodeText': 'Type of case?'}
+2024-11-04 19:32:27,036:DEBUG:node_type: selectbox
+2024-11-04 19:32:27,037:DEBUG:Branch Selectbox
+2024-11-04 19:32:27,078:INFO:Still Collecting Information
+2024-11-04 19:32:32,339:DEBUG:current_path: {current_path}
+2024-11-04 19:32:32,339:DEBUG:current_node: 1
+2024-11-04 19:32:32,340:DEBUG:node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04 19:32:32,340:DEBUG:node_type: selectbox
+2024-11-04 19:32:32,340:DEBUG:node_text: Type of case?
+2024-11-04 19:32:32,340:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:32:32,347:DEBUG:children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04 19:32:32,347:DEBUG:node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04 19:32:32,347:DEBUG:node_dict: {'nodeText': 'Type of case?'}
+2024-11-04 19:32:32,347:DEBUG:node_type: selectbox
+2024-11-04 19:32:32,347:DEBUG:Branch Selectbox
+2024-11-04 19:32:32,348:DEBUG:current_node: 3
+2024-11-04 19:32:32,354:DEBUG:node_row: nodeID                                                              3
+nodeType                                                    selectbox
+parentID                                                          1.0
+option                                                 sexual assault
+nodeText            What is the prosecution's activity level propo...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                             sexual assault
+Name: 2, dtype: object
+2024-11-04 19:32:32,354:DEBUG:node_type: selectbox
+2024-11-04 19:32:32,355:DEBUG:node_text: What is the prosecution's activity level proposition?
+2024-11-04 19:32:32,355:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:32:32,372:DEBUG:children_rows:    nodeID   nodeType  parentID  ...                                               H_p  H_a  TypeOfCase
+6       7  selectbox       3.0  ...  Suspect had vaginal intercourse with Complainant  NaN         NaN
+7       8  selectbox       3.0  ...          Suspect digitally penetrated Complainant  NaN         NaN
+8       9  selectbox       3.0  ...    Suspect licked/sucked breast(s) of Complainant  NaN         NaN
+
+[3 rows x 9 columns]
+2024-11-04 19:32:32,372:DEBUG:node_dict: {'nodeID': 3, 'nodeType': 'selectbox', 'parentID': 1.0, 'option': 'sexual assault', 'nodeText': "What is the prosecution's activity level proposition?", 'TypeOfCase': 'sexual assault'}
+2024-11-04 19:32:32,372:DEBUG:node_dict: {'nodeText': "What is the prosecution's activity level proposition?", 'TypeOfCase': 'sexual assault'}
+2024-11-04 19:32:32,372:DEBUG:node_type: selectbox
+2024-11-04 19:32:32,372:DEBUG:Branch Selectbox
+2024-11-04 19:32:32,373:INFO:Still Collecting Information
+2024-11-04 19:32:42,108:DEBUG:current_path: {current_path}
+2024-11-04 19:32:42,109:DEBUG:current_node: 1
+2024-11-04 19:32:42,109:DEBUG:node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04 19:32:42,109:DEBUG:node_type: selectbox
+2024-11-04 19:32:42,109:DEBUG:node_text: Type of case?
+2024-11-04 19:32:42,109:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:32:42,114:DEBUG:children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04 19:32:42,114:DEBUG:node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04 19:32:42,114:DEBUG:node_dict: {'nodeText': 'Type of case?'}
+2024-11-04 19:32:42,114:DEBUG:node_type: selectbox
+2024-11-04 19:32:42,114:DEBUG:Branch Selectbox
+2024-11-04 19:32:42,115:DEBUG:current_node: 3
+2024-11-04 19:32:42,115:DEBUG:node_row: nodeID                                                              3
+nodeType                                                    selectbox
+parentID                                                          1.0
+option                                                 sexual assault
+nodeText            What is the prosecution's activity level propo...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                             sexual assault
+Name: 2, dtype: object
+2024-11-04 19:32:42,115:DEBUG:node_type: selectbox
+2024-11-04 19:32:42,115:DEBUG:node_text: What is the prosecution's activity level proposition?
+2024-11-04 19:32:42,115:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:32:42,120:DEBUG:children_rows:    nodeID   nodeType  parentID  ...                                               H_p  H_a  TypeOfCase
+6       7  selectbox       3.0  ...  Suspect had vaginal intercourse with Complainant  NaN         NaN
+7       8  selectbox       3.0  ...          Suspect digitally penetrated Complainant  NaN         NaN
+8       9  selectbox       3.0  ...    Suspect licked/sucked breast(s) of Complainant  NaN         NaN
+
+[3 rows x 9 columns]
+2024-11-04 19:32:42,121:DEBUG:node_dict: {'nodeID': 3, 'nodeType': 'selectbox', 'parentID': 1.0, 'option': 'sexual assault', 'nodeText': "What is the prosecution's activity level proposition?", 'TypeOfCase': 'sexual assault'}
+2024-11-04 19:32:42,121:DEBUG:node_dict: {'nodeText': "What is the prosecution's activity level proposition?", 'TypeOfCase': 'sexual assault'}
+2024-11-04 19:32:42,121:DEBUG:node_type: selectbox
+2024-11-04 19:32:42,121:DEBUG:Branch Selectbox
+2024-11-04 19:32:42,121:INFO:Still Collecting Information
+2024-11-04 19:32:56,240:DEBUG:current_path: {current_path}
+2024-11-04 19:32:56,241:DEBUG:current_node: 1
+2024-11-04 19:32:56,242:DEBUG:node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04 19:32:56,242:DEBUG:node_type: selectbox
+2024-11-04 19:32:56,242:DEBUG:node_text: Type of case?
+2024-11-04 19:32:56,242:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:32:56,247:DEBUG:children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04 19:32:56,247:DEBUG:node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04 19:32:56,247:DEBUG:node_dict: {'nodeText': 'Type of case?'}
+2024-11-04 19:32:56,247:DEBUG:node_type: selectbox
+2024-11-04 19:32:56,247:DEBUG:Branch Selectbox
+2024-11-04 19:32:56,247:DEBUG:current_node: 4
+2024-11-04 19:32:56,248:DEBUG:node_row: nodeID                                                              4
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                             trace DNA (airbag)
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                  trace DNA
+Name: 3, dtype: object
+2024-11-04 19:32:56,248:DEBUG:node_type: textarea
+2024-11-04 19:32:56,248:DEBUG:node_text: The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)
+2024-11-04 19:32:56,248:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:32:56,251:DEBUG:children_rows:    nodeID  nodeType  parentID option                         nodeText  ScenarioCategory  H_p  H_a TypeOfCase
+9      10  textarea       4.0    NaN  and ______________ (date, time)               NaN  NaN  NaN        NaN
+2024-11-04 19:32:56,251:DEBUG:node_dict: {'nodeID': 4, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'trace DNA (airbag)', 'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04 19:32:56,252:DEBUG:node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect drove the car between ______________ (date, time)", 'TypeOfCase': 'trace DNA'}
+2024-11-04 19:32:56,252:DEBUG:node_type: textarea
+2024-11-04 19:32:56,252:INFO:Still Collecting Information
+2024-11-04 19:33:01,857:DEBUG:current_path: {current_path}
+2024-11-04 19:33:01,857:DEBUG:current_node: 1
+2024-11-04 19:33:01,858:DEBUG:node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04 19:33:01,858:DEBUG:node_type: selectbox
+2024-11-04 19:33:01,858:DEBUG:node_text: Type of case?
+2024-11-04 19:33:01,858:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:01,863:DEBUG:children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04 19:33:01,863:DEBUG:node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04 19:33:01,863:DEBUG:node_dict: {'nodeText': 'Type of case?'}
+2024-11-04 19:33:01,863:DEBUG:node_type: selectbox
+2024-11-04 19:33:01,863:DEBUG:Branch Selectbox
+2024-11-04 19:33:01,864:DEBUG:current_node: 2
+2024-11-04 19:33:01,864:DEBUG:node_row: nodeID                                                              2
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                                          blood
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                      blood
+Name: 1, dtype: object
+2024-11-04 19:33:01,864:DEBUG:node_type: textarea
+2024-11-04 19:33:01,864:DEBUG:node_text: The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).
+2024-11-04 19:33:01,865:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:01,868:DEBUG:children_rows:    nodeID  nodeType  parentID option  ... ScenarioCategory  H_p  H_a TypeOfCase
+4       5  textarea       2.0    NaN  ...              NaN  NaN  NaN        NaN
+
+[1 rows x 9 columns]
+2024-11-04 19:33:01,868:DEBUG:node_dict: {'nodeID': 2, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'blood', 'nodeText': "The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).", 'TypeOfCase': 'blood'}
+2024-11-04 19:33:01,868:DEBUG:node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).", 'TypeOfCase': 'blood'}
+2024-11-04 19:33:01,868:DEBUG:node_type: textarea
+2024-11-04 19:33:01,869:INFO:Still Collecting Information
+2024-11-04 19:33:24,797:DEBUG:current_path: {current_path}
+2024-11-04 19:33:24,797:DEBUG:current_node: 1
+2024-11-04 19:33:24,798:DEBUG:node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04 19:33:24,798:DEBUG:node_type: selectbox
+2024-11-04 19:33:24,798:DEBUG:node_text: Type of case?
+2024-11-04 19:33:24,798:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:24,802:DEBUG:children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04 19:33:24,802:DEBUG:node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04 19:33:24,802:DEBUG:node_dict: {'nodeText': 'Type of case?'}
+2024-11-04 19:33:24,802:DEBUG:node_type: selectbox
+2024-11-04 19:33:24,802:DEBUG:Branch Selectbox
+2024-11-04 19:33:24,802:DEBUG:current_node: 2
+2024-11-04 19:33:24,803:DEBUG:node_row: nodeID                                                              2
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                                          blood
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                      blood
+Name: 1, dtype: object
+2024-11-04 19:33:24,803:DEBUG:node_type: textarea
+2024-11-04 19:33:24,803:DEBUG:node_text: The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).
+2024-11-04 19:33:24,803:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:24,806:DEBUG:children_rows:    nodeID  nodeType  parentID option  ... ScenarioCategory  H_p  H_a TypeOfCase
+4       5  textarea       2.0    NaN  ...              NaN  NaN  NaN        NaN
+
+[1 rows x 9 columns]
+2024-11-04 19:33:24,806:DEBUG:node_dict: {'nodeID': 2, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'blood', 'nodeText': "The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).", 'TypeOfCase': 'blood'}
+2024-11-04 19:33:24,806:DEBUG:node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).", 'TypeOfCase': 'blood'}
+2024-11-04 19:33:24,806:DEBUG:node_type: textarea
+2024-11-04 19:33:24,806:DEBUG:next_children_rows: 4    5
+Name: nodeID, dtype: int64
+2024-11-04 19:33:24,806:DEBUG:next_node: 5
+2024-11-04 19:33:24,806:DEBUG:current_path: [1, 2, 5]
+2024-11-04 19:33:24,806:DEBUG:current_node: 5
+2024-11-04 19:33:24,807:DEBUG:node_row: nodeID                                                              5
+nodeType                                                     textarea
+parentID                                                          2.0
+option                                                            NaN
+nodeText            In the prosecution's proposition, what weapon ...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 4, dtype: object
+2024-11-04 19:33:24,807:DEBUG:node_type: textarea
+2024-11-04 19:33:24,807:DEBUG:node_text: In the prosecution's proposition, what weapon did the Suspect use?  (e.g., a knife, a baseball bat, an unknown weapon, no weapon)
+2024-11-04 19:33:24,807:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:24,810:DEBUG:children_rows:    nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+5       6  selectbox       5.0  ...  The Suspect ___________ the Complainant with _...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04 19:33:24,810:DEBUG:node_dict: {'nodeID': 5, 'nodeType': 'textarea', 'parentID': 2.0, 'nodeText': "In the prosecution's proposition, what weapon did the Suspect use?  (e.g., a knife, a baseball bat, an unknown weapon, no weapon)"}
+2024-11-04 19:33:24,810:DEBUG:node_dict: {'nodeText': "In the prosecution's proposition, what weapon did the Suspect use?  (e.g., a knife, a baseball bat, an unknown weapon, no weapon)"}
+2024-11-04 19:33:24,811:DEBUG:node_type: textarea
+2024-11-04 19:33:24,811:INFO:Still Collecting Information
+2024-11-04 19:33:33,773:DEBUG:current_path: {current_path}
+2024-11-04 19:33:33,773:DEBUG:current_node: 1
+2024-11-04 19:33:33,773:DEBUG:node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04 19:33:33,774:DEBUG:node_type: selectbox
+2024-11-04 19:33:33,774:DEBUG:node_text: Type of case?
+2024-11-04 19:33:33,774:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:33,779:DEBUG:children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04 19:33:33,779:DEBUG:node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04 19:33:33,779:DEBUG:node_dict: {'nodeText': 'Type of case?'}
+2024-11-04 19:33:33,779:DEBUG:node_type: selectbox
+2024-11-04 19:33:33,779:DEBUG:Branch Selectbox
+2024-11-04 19:33:33,780:DEBUG:current_node: 2
+2024-11-04 19:33:33,781:DEBUG:node_row: nodeID                                                              2
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                                          blood
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                      blood
+Name: 1, dtype: object
+2024-11-04 19:33:33,781:DEBUG:node_type: textarea
+2024-11-04 19:33:33,781:DEBUG:node_text: The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).
+2024-11-04 19:33:33,781:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:33,785:DEBUG:children_rows:    nodeID  nodeType  parentID option  ... ScenarioCategory  H_p  H_a TypeOfCase
+4       5  textarea       2.0    NaN  ...              NaN  NaN  NaN        NaN
+
+[1 rows x 9 columns]
+2024-11-04 19:33:33,785:DEBUG:node_dict: {'nodeID': 2, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'blood', 'nodeText': "The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).", 'TypeOfCase': 'blood'}
+2024-11-04 19:33:33,785:DEBUG:node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).", 'TypeOfCase': 'blood'}
+2024-11-04 19:33:33,785:DEBUG:node_type: textarea
+2024-11-04 19:33:33,786:DEBUG:next_children_rows: 4    5
+Name: nodeID, dtype: int64
+2024-11-04 19:33:33,786:DEBUG:next_node: 5
+2024-11-04 19:33:33,786:DEBUG:current_path: [1, 2, 5]
+2024-11-04 19:33:33,786:DEBUG:current_node: 5
+2024-11-04 19:33:33,787:DEBUG:node_row: nodeID                                                              5
+nodeType                                                     textarea
+parentID                                                          2.0
+option                                                            NaN
+nodeText            In the prosecution's proposition, what weapon ...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 4, dtype: object
+2024-11-04 19:33:33,787:DEBUG:node_type: textarea
+2024-11-04 19:33:33,787:DEBUG:node_text: In the prosecution's proposition, what weapon did the Suspect use?  (e.g., a knife, a baseball bat, an unknown weapon, no weapon)
+2024-11-04 19:33:33,787:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:33,791:DEBUG:children_rows:    nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+5       6  selectbox       5.0  ...  The Suspect ___________ the Complainant with _...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04 19:33:33,791:DEBUG:node_dict: {'nodeID': 5, 'nodeType': 'textarea', 'parentID': 2.0, 'nodeText': "In the prosecution's proposition, what weapon did the Suspect use?  (e.g., a knife, a baseball bat, an unknown weapon, no weapon)"}
+2024-11-04 19:33:33,791:DEBUG:node_dict: {'nodeText': "In the prosecution's proposition, what weapon did the Suspect use?  (e.g., a knife, a baseball bat, an unknown weapon, no weapon)"}
+2024-11-04 19:33:33,791:DEBUG:node_type: textarea
+2024-11-04 19:33:33,792:DEBUG:next_children_rows: 5    6
+Name: nodeID, dtype: int64
+2024-11-04 19:33:33,792:DEBUG:next_node: 6
+2024-11-04 19:33:33,792:DEBUG:current_path: [1, 2, 5, 6]
+2024-11-04 19:33:33,792:DEBUG:current_node: 6
+2024-11-04 19:33:33,793:DEBUG:node_row: nodeID                                                              6
+nodeType                                                    selectbox
+parentID                                                          5.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect ___________ the Complainant with _...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 5, dtype: object
+2024-11-04 19:33:33,793:DEBUG:node_type: selectbox
+2024-11-04 19:33:33,793:DEBUG:node_text: What is the alternative proposition / scenario?
+2024-11-04 19:33:33,793:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:33,797:DEBUG:children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+11      12      leaf       6.0  ...  NaN  Someone else ___________ Complainant with ____...         NaN
+12      13      leaf       6.0  ...  NaN  Suspect ___________ someone else with ___________         NaN
+13      14  textarea       6.0  ...  NaN                                                NaN         NaN
+14      15  textarea       6.0  ...  NaN                                                NaN         NaN
+15      16  textarea       6.0  ...  NaN                                                NaN         NaN
+16      17  textarea       6.0  ...  NaN                                                NaN         NaN
+17      18  textarea       6.0  ...  NaN                                                NaN         NaN
+18      19  textarea       6.0  ...  NaN                                                NaN         NaN
+19      20      leaf       6.0  ...  NaN  Suspect did not __________ Complainant with __...         NaN
+
+[9 rows x 9 columns]
+2024-11-04 19:33:33,798:DEBUG:node_dict: {'nodeID': 6, 'nodeType': 'selectbox', 'parentID': 5.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect ___________ the Complainant with ____________ .'}
+2024-11-04 19:33:33,798:DEBUG:node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect ___________ the Complainant with ____________ .'}
+2024-11-04 19:33:33,798:DEBUG:node_type: selectbox
+2024-11-04 19:33:33,798:DEBUG:Branch Selectbox
+2024-11-04 19:33:33,798:INFO:Still Collecting Information
+2024-11-04 19:33:43,615:DEBUG:current_path: {current_path}
+2024-11-04 19:33:43,615:DEBUG:current_node: 1
+2024-11-04 19:33:43,616:DEBUG:node_row: nodeID                          1
+nodeType                selectbox
+parentID                      NaN
+option                        NaN
+nodeText            Type of case?
+ScenarioCategory              NaN
+H_p                           NaN
+H_a                           NaN
+TypeOfCase                    NaN
+Name: 0, dtype: object
+2024-11-04 19:33:43,616:DEBUG:node_type: selectbox
+2024-11-04 19:33:43,616:DEBUG:node_text: Type of case?
+2024-11-04 19:33:43,616:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:43,621:DEBUG:children_rows:    nodeID   nodeType  parentID              option  ... ScenarioCategory  H_p  H_a      TypeOfCase
+1       2   textarea       1.0               blood  ...              NaN  NaN  NaN           blood
+2       3  selectbox       1.0      sexual assault  ...              NaN  NaN  NaN  sexual assault
+3       4   textarea       1.0  trace DNA (airbag)  ...              NaN  NaN  NaN       trace DNA
+
+[3 rows x 9 columns]
+2024-11-04 19:33:43,621:DEBUG:node_dict: {'nodeID': 1, 'nodeType': 'selectbox', 'nodeText': 'Type of case?'}
+2024-11-04 19:33:43,621:DEBUG:node_dict: {'nodeText': 'Type of case?'}
+2024-11-04 19:33:43,621:DEBUG:node_type: selectbox
+2024-11-04 19:33:43,621:DEBUG:Branch Selectbox
+2024-11-04 19:33:43,622:DEBUG:current_node: 2
+2024-11-04 19:33:43,623:DEBUG:node_row: nodeID                                                              2
+nodeType                                                     textarea
+parentID                                                          1.0
+option                                                          blood
+nodeText            The prosecution's activity level proposition i...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                      blood
+Name: 1, dtype: object
+2024-11-04 19:33:43,623:DEBUG:node_type: textarea
+2024-11-04 19:33:43,623:DEBUG:node_text: The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).
+2024-11-04 19:33:43,623:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:43,627:DEBUG:children_rows:    nodeID  nodeType  parentID option  ... ScenarioCategory  H_p  H_a TypeOfCase
+4       5  textarea       2.0    NaN  ...              NaN  NaN  NaN        NaN
+
+[1 rows x 9 columns]
+2024-11-04 19:33:43,627:DEBUG:node_dict: {'nodeID': 2, 'nodeType': 'textarea', 'parentID': 1.0, 'option': 'blood', 'nodeText': "The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).", 'TypeOfCase': 'blood'}
+2024-11-04 19:33:43,627:DEBUG:node_dict: {'nodeText': "The prosecution's activity level proposition is that the Suspect ______________ the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).", 'TypeOfCase': 'blood'}
+2024-11-04 19:33:43,627:DEBUG:node_type: textarea
+2024-11-04 19:33:43,627:DEBUG:next_children_rows: 4    5
+Name: nodeID, dtype: int64
+2024-11-04 19:33:43,627:DEBUG:next_node: 5
+2024-11-04 19:33:43,628:DEBUG:current_path: [1, 2, 5]
+2024-11-04 19:33:43,628:DEBUG:current_node: 5
+2024-11-04 19:33:43,628:DEBUG:node_row: nodeID                                                              5
+nodeType                                                     textarea
+parentID                                                          2.0
+option                                                            NaN
+nodeText            In the prosecution's proposition, what weapon ...
+ScenarioCategory                                                  NaN
+H_p                                                               NaN
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 4, dtype: object
+2024-11-04 19:33:43,628:DEBUG:node_type: textarea
+2024-11-04 19:33:43,628:DEBUG:node_text: In the prosecution's proposition, what weapon did the Suspect use?  (e.g., a knife, a baseball bat, an unknown weapon, no weapon)
+2024-11-04 19:33:43,628:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:43,633:DEBUG:children_rows:    nodeID   nodeType  parentID  ...                                                H_p  H_a  TypeOfCase
+5       6  selectbox       5.0  ...  The Suspect ___________ the Complainant with _...  NaN         NaN
+
+[1 rows x 9 columns]
+2024-11-04 19:33:43,633:DEBUG:node_dict: {'nodeID': 5, 'nodeType': 'textarea', 'parentID': 2.0, 'nodeText': "In the prosecution's proposition, what weapon did the Suspect use?  (e.g., a knife, a baseball bat, an unknown weapon, no weapon)"}
+2024-11-04 19:33:43,633:DEBUG:node_dict: {'nodeText': "In the prosecution's proposition, what weapon did the Suspect use?  (e.g., a knife, a baseball bat, an unknown weapon, no weapon)"}
+2024-11-04 19:33:43,633:DEBUG:node_type: textarea
+2024-11-04 19:33:43,633:DEBUG:next_children_rows: 5    6
+Name: nodeID, dtype: int64
+2024-11-04 19:33:43,633:DEBUG:next_node: 6
+2024-11-04 19:33:43,633:DEBUG:current_path: [1, 2, 5, 6]
+2024-11-04 19:33:43,634:DEBUG:current_node: 6
+2024-11-04 19:33:43,634:DEBUG:node_row: nodeID                                                              6
+nodeType                                                    selectbox
+parentID                                                          5.0
+option                                                            NaN
+nodeText              What is the alternative proposition / scenario?
+ScenarioCategory                                                  NaN
+H_p                 The Suspect ___________ the Complainant with _...
+H_a                                                               NaN
+TypeOfCase                                                        NaN
+Name: 5, dtype: object
+2024-11-04 19:33:43,634:DEBUG:node_type: selectbox
+2024-11-04 19:33:43,634:DEBUG:node_text: What is the alternative proposition / scenario?
+2024-11-04 19:33:43,634:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:43,638:DEBUG:children_rows:     nodeID  nodeType  parentID  ...  H_p                                                H_a  TypeOfCase
+11      12      leaf       6.0  ...  NaN  Someone else ___________ Complainant with ____...         NaN
+12      13      leaf       6.0  ...  NaN  Suspect ___________ someone else with ___________         NaN
+13      14  textarea       6.0  ...  NaN                                                NaN         NaN
+14      15  textarea       6.0  ...  NaN                                                NaN         NaN
+15      16  textarea       6.0  ...  NaN                                                NaN         NaN
+16      17  textarea       6.0  ...  NaN                                                NaN         NaN
+17      18  textarea       6.0  ...  NaN                                                NaN         NaN
+18      19  textarea       6.0  ...  NaN                                                NaN         NaN
+19      20      leaf       6.0  ...  NaN  Suspect did not __________ Complainant with __...         NaN
+
+[9 rows x 9 columns]
+2024-11-04 19:33:43,639:DEBUG:node_dict: {'nodeID': 6, 'nodeType': 'selectbox', 'parentID': 5.0, 'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect ___________ the Complainant with ____________ .'}
+2024-11-04 19:33:43,639:DEBUG:node_dict: {'nodeText': 'What is the alternative proposition / scenario?', 'H_p': 'The Suspect ___________ the Complainant with ____________ .'}
+2024-11-04 19:33:43,639:DEBUG:node_type: selectbox
+2024-11-04 19:33:43,639:DEBUG:Branch Selectbox
+2024-11-04 19:33:43,640:DEBUG:current_node: 12
+2024-11-04 19:33:43,640:DEBUG:node_row: nodeID                                                             12
+nodeType                                                         leaf
+parentID                                                          6.0
+option                           Someone else performed this activity
+nodeText                                                          NaN
+ScenarioCategory                                                  3.0
+H_p                                                               NaN
+H_a                 Someone else ___________ Complainant with ____...
+TypeOfCase                                                        NaN
+Name: 11, dtype: object
+2024-11-04 19:33:43,640:DEBUG:node_type: leaf
+2024-11-04 19:33:43,640:DEBUG:node_text: nan
+2024-11-04 19:33:43,640:DEBUG:type(node_type): <class 'str'>
+2024-11-04 19:33:43,641:DEBUG:children_rows: Empty DataFrame
+Columns: [nodeID, nodeType, parentID, option, nodeText, ScenarioCategory, H_p, H_a, TypeOfCase]
+Index: []
+2024-11-04 19:33:43,641:DEBUG:node_dict: {'nodeID': 12, 'nodeType': 'leaf', 'parentID': 6.0, 'option': 'Someone else performed this activity', 'ScenarioCategory': 3.0, 'H_a': 'Someone else ___________ Complainant with _________'}
+2024-11-04 19:33:43,641:DEBUG:node_dict: {'ScenarioCategory': 3.0, 'H_a': 'Someone else ___________ Complainant with _________'}
+2024-11-04 19:33:43,641:DEBUG:node_type: leaf
+2024-11-04 19:33:43,641:DEBUG:Branch Leaf
+2024-11-04 19:33:43,641:INFO:Information Collected: ['nodeText: Type of case?\nselected_option: blood\n', "TypeOfCase: blood\nnodeText: The prosecution's activity level proposition is that the Suspect ______________\n  the Complainant.  Please fill in the blank (e.g., assaulted, stabbed).\nresponse: Stabbed\n", "nodeText: In the prosecution's proposition, what weapon did the Suspect use?  (e.g.,\n  a knife, a baseball bat, an unknown weapon, no weapon)\nresponse: A knife\n", 'H_p: The Suspect ___________ the Complainant with ____________ .\nnodeText: What is the alternative proposition / scenario?\nselected_option: Someone else performed this activity\n', 'H_a: Someone else ___________ Complainant with _________\nScenarioCategory: 3.0\n']
