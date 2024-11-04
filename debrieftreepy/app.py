@@ -8,23 +8,27 @@ import logging
 import yaml
 logger = logging.getLogger(__name__)
 
-
+# These constants should all be in the config file
 LOGGER_FILE = "debug.log"
+# MAXLOOP is basically a bound on how many questions it asks the user
 MAXLOOP = 1000
+DATAPATH = Path("data/raw")
+#FNAME = "SampleFormatTreeData.csv"
+FNAME = "DecisionTrees3.csv"
 
 def display_question(data_loaded: DataFrame, 
                      current_path: list[int], 
-                     collected_info: dict) -> None:
+                     collected_info: dict) -> str:
     """
     Function to display questions and collect responses using the GUI toolkit streamlit
     
     Args:
-        data_loaded (DataFrame): pandas dataframe
-        current_path (list): list of nodeIDs
+        data_loaded (DataFrame): pandas DataFrame
+        current_path (list): list of nodeIDs (int)
         collected_info (dict): dictionary to store the collected information
     
     Returns:
-        None (None): Since it is a streamlit app, it does not return anything   
+        final_answer (str): When a leaf is reached it should return a final report in yaml   
     """
 
     # Base case: if the tree is a string, return it as the final answer
@@ -34,27 +38,36 @@ def display_question(data_loaded: DataFrame,
     
     for _ in range(MAXLOOP):
         current_node = current_path[-1]
+      
         logger.debug(f"current_node: {current_node}")
+      
         text_input = None
         node_row = data_loaded[data_loaded["nodeID"] == current_node].iloc[0]
+      
         logger.debug(f"node_row: {node_row}")
+      
         node_type, node_text = node_row["nodeType"], node_row["nodeText"]
+      
         logger.debug(f"node_type: {node_type}")
         logger.debug(f"node_text: {node_text}")
         logger.debug(f"type(node_type): {type(node_type)}")
+      
         select_children = (data_loaded["parentID"] == current_node)
         children_rows = data_loaded[select_children]
+      
         logger.debug(f"children_rows: {children_rows}")
         
         # Remove empty values
         node_dict = {key:value 
                         for key, value in node_row.to_dict().items()
                         if str(value) not in ["", np.nan ,".nan", "nan", float("nan")]}
+      
         logger.debug(f"node_dict: {node_dict}")
         # Remove keys that are not needed for the report
         for key in ["nodeType", "nodeID", "parentID", "option"]:
             if key in node_dict:
                 del node_dict[key]
+              
         logger.debug(f"node_dict: {node_dict}")   
         logger.debug(f"node_type: {node_type}")
 
@@ -62,11 +75,15 @@ def display_question(data_loaded: DataFrame,
         if node_type == 'leaf':
             # Dump the node_dict to a yaml string as report
             logger.debug(f"Branch Leaf")
-            
-            formatted_node = yaml.dump(node_dict,
-                                      default_flow_style=False)
-            collected_info.append(formatted_node)
-            return formatted_node
+
+            if node_dict:
+              final_answer = yaml.dump(node_dict,
+                                        default_flow_style=False)
+              collected_info.append(final_answer)
+              return final_answer
+            else: 
+              return ""
+          
         elif node_type == "selectbox":
             logger.debug(f"Branch Selectbox")
             option_list = list(children_rows["option"])
@@ -84,7 +101,7 @@ def display_question(data_loaded: DataFrame,
             )
             # If nothing is selected, then leave the function
             if selected_option == "Select an option":
-                return None
+                return ""
             # Lookup next node based on the selected option
             current_path.append(option2id[selected_option])
             # Add the selected option to the node_dict for the report
@@ -93,7 +110,7 @@ def display_question(data_loaded: DataFrame,
             # This node just collects text input for text report
             text_input = st.text_area(node_text)
             if text_input == "":
-                return None
+                return ""
             node_dict["response"] = text_input
             # There can be only one child node for a text area
             next_children_rows = children_rows['nodeID']
@@ -193,11 +210,8 @@ def main()-> None:
     Raises:
         Exception: Exception is raised if the dataframe check fails
     """
-    DATAPATH = Path("data/raw")
-    FNAME = "SampleFormatTreeData.csv"
-    FNAME = "DecisionTrees3.csv"
 
-    fid = open(LOGGER_FILE, "a")
+
     logging.basicConfig(filename=LOGGER_FILE,
                         filemode='a',
                         encoding='utf-8', 
@@ -235,7 +249,7 @@ def main()-> None:
     else:
         logger.info(f"Still Collecting Information")
     
-    return
+    return None
   
     
 if __name__ == "__main__":
