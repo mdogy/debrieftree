@@ -1,7 +1,3 @@
-name: debriefmin
-channels:
-  - conda-forge
-  - defaults
 dependencies:
   - streamlit
   - numpy 
