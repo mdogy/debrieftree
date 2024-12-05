@@ -1,5 +1,4 @@
 dependencies:
   - streamlit
-  - numpy 
   - pandas
   - pyyaml
