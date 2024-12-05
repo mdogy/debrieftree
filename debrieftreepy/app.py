@@ -14,7 +14,7 @@ LOGGER_FILE = "debug.log"
 MAXLOOP = 1000
 DATAPATH = Path("data/raw")
 #FNAME = "SampleFormatTreeData.csv"
-FNAME = "DecisionTrees3.csv"
+FNAME = "DecisionTrees4v2v2.csv"
 
 def display_question(data_loaded: DataFrame, 
                      current_path: list[int], 
@@ -215,7 +215,7 @@ def main()-> None:
     logging.basicConfig(filename=LOGGER_FILE,
                         filemode='a',
                         encoding='utf-8', 
-                        level=logging.DEBUG,
+                        level=logging.ERROR,
                         format="%(asctime)s:%(levelname)s:%(message)s")
 
 
